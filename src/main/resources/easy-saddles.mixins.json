@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "easy.saddles.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"MobEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

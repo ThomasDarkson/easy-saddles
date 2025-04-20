@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "easy-saddles",
+	"version": "${version}",
+	"name": "Easy Saddles",
+	"description": "Removes the hassles of using saddles",
+	"authors": [
+		"Thomas Darkson"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/easy-saddles",
+		"sources": "https://github.com/ThomasDarkson/easy-saddles"
+	},
+	"license": "Apache",
+	"icon": "assets/easy-saddles/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"easy.saddles.EasySaddles"
+		]
+	},
+	"mixins": [
+		"easy-saddles.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "<=1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
